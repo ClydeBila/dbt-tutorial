@@ -5,7 +5,7 @@ Welcome to your new dbt project! ### Using the starter project Try running the f
 
 ```mermaid 
 graph LR 
-A[Start] --> B {Is it working?}; 
+A[Start] --> B{Is it working?}; 
 B --> |YES| C[Continue]; 
 B --> |NO| D[Chekc logs]; 
 D --> B; 
