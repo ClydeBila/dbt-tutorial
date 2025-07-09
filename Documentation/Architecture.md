@@ -3,9 +3,10 @@ Welcome to your new dbt project! ### Using the starter project Try running the f
 
 ## Architecture Diagram 
 
-```mermaid graph LR A[Start] --> B {Is it working?}; 
+```mermaid 
+graph LR 
+A[Start] --> B {Is it working?}; 
 B --> |YES| C[Continue]; 
 B --> |NO| D[Chekc logs]; 
 D --> B; 
-style A fill:#28591d,stroke:#111,stroke-width:2px 
 ```
